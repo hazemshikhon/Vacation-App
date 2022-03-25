@@ -1,5 +1,5 @@
 import React from 'react';
-import { StyleSheet, SafeAreaView, ScrollView, View, StatusBar } from 'react-native';
+import { StyleSheet, SafeAreaView, ScrollView, View, StatusBar, Platform, KeyboardAvoidingView } from 'react-native';
 
 import Header from '../components/Header';
 import colors from '../config/colors';
@@ -13,10 +13,11 @@ const Container = ({ scrollView, children, backButton }) => {
           <StatusBar backgroundColor={colors.primary} barStyle={'light-content'} />
 
           <Header backButton={backButton} />
-
-          <ScrollView showsVerticalScrollIndicator={false} style={styles.scroll}>
-            <View style={styles.mainView}>{children}</View>
-          </ScrollView>
+          <KeyboardAvoidingView enabled={Platform.OS === 'ios'} behavior={'padding'}>
+            <ScrollView showsVerticalScrollIndicator={false} style={styles.scroll}>
+              <View style={styles.mainView}>{children}</View>
+            </ScrollView>
+          </KeyboardAvoidingView>
         </>
       ) : (
         <>
