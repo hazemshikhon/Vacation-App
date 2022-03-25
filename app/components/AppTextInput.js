@@ -20,7 +20,7 @@ export default AppTextInput;
 const styles = StyleSheet.create({
   inputText: {
     borderRadius: 8,
-    padding: Platform.OS === 'android' ? 0 : 12,
+    padding: 12,
     borderWidth: 1,
     borderColor: colors.light,
     marginBottom: 12,

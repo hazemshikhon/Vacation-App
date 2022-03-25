@@ -13,7 +13,7 @@ const Container = ({ scrollView, children, backButton, styleContainer }) => {
           <StatusBar backgroundColor={colors.primary} barStyle={'light-content'} />
 
           <Header backButton={backButton} />
-          <KeyboardAvoidingView enabled={Platform.OS === 'ios'} behavior={'padding'}>
+          <KeyboardAvoidingView enabled={Platform.OS === 'ios'} behavior={'padding'} style={styles.KeyboardAvoidingView}>
             <ScrollView showsVerticalScrollIndicator={false} style={styles.scroll}>
               <View style={[styles.mainView, styleContainer]}>{children}</View>
             </ScrollView>
@@ -43,6 +43,9 @@ const styles = StyleSheet.create({
   },
   safeAreaView: {
     backgroundColor: colors.primary,
+  },
+  KeyboardAvoidingView: {
+    flex: 1,
   },
 });
 
