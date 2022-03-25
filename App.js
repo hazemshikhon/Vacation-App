@@ -5,6 +5,7 @@ import VacationRequestsController from './app/controllers/VacationRequestsContro
 import Splash from './app/screens/Splash';
 import CreateVacationController from './app/controllers/CreateVacationController';
 import Home from './app/screens/Home';
+import RequestDetails from './app/screens/RequestDetails';
 const App = () => {
   return (
     <Router>
@@ -12,6 +13,7 @@ const App = () => {
         <Scene key="Splash" component={Splash} title="Splash" hideNavBar initial />
         <Scene key="VacationRequestsController" component={VacationRequestsController} title="VacationRequestsController" hideNavBar />
         <Scene key="CreateVacationController" component={CreateVacationController} title="CreateVacationController" hideNavBar />
+        <Scene key="RequestDetails" component={RequestDetails} title="RequestDetails" hideNavBar />
         <Scene key="Home" component={Home} title="Home" hideNavBar />
       </Stack>
     </Router>

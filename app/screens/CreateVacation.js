@@ -134,7 +134,7 @@ const styles = StyleSheet.create({
   headerText: {
     fontSize: responsiveFontSize(3.5),
     fontWeight: 'bold',
-    color: '#5d9edf',
+    color: colors.primary,
     marginBottom: 18,
   },
   dateContainer: {

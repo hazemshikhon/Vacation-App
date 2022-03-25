@@ -1,14 +1,15 @@
 import React from 'react';
-import { View, Text, StyleSheet } from 'react-native';
+import { View, Text, StyleSheet, TouchableOpacity } from 'react-native';
 import moment from 'moment';
 import { responsiveFontSize } from 'react-native-responsive-dimensions';
+import { Actions } from 'react-native-router-flux';
 
 import colors from '../config/colors';
 
 const Card = ({ data }) => {
   const { name, replacementName, mobile, startDate, requestDays } = data;
   return (
-    <View style={styles.container}>
+    <TouchableOpacity onPress={() => Actions.RequestDetails({ data })} style={styles.container}>
       <View style={styles.rowContainer}>
         <Text style={styles.dateText}>{moment(startDate).format('MMMM D,YYYY')}</Text>
 
@@ -20,7 +21,7 @@ const Card = ({ data }) => {
       <Text style={styles.mainText}>{mobile}</Text>
 
       <Text style={styles.replacmentNameText}>{replacementName}</Text>
-    </View>
+    </TouchableOpacity>
   );
 };
 
