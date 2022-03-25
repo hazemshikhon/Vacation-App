@@ -6,7 +6,7 @@ import colors from '../config/colors';
 const Splash = ({}) => {
   useEffect(() => {
     setTimeout(() => {
-      Actions.VacationRequestsController();
+      Actions.Home();
     }, 2500);
   }, []);
   return (

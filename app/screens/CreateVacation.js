@@ -36,7 +36,7 @@ const CreateVacation = ({
   tomorrow.setDate(tomorrow.getDate() + 1);
 
   return (
-    <Container scrollView>
+    <Container scrollView backButton>
       <Text style={styles.headerText}>Vacation Request</Text>
       <AppTextInput
         title={'Enter Your Name'}

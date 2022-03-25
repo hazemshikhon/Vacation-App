@@ -4,7 +4,7 @@ import { StyleSheet, SafeAreaView, ScrollView, View, StatusBar, Platform, Keyboa
 import Header from '../components/Header';
 import colors from '../config/colors';
 
-const Container = ({ scrollView, children, backButton }) => {
+const Container = ({ scrollView, children, backButton, styleContainer }) => {
   return (
     <>
       {scrollView ? (
@@ -15,7 +15,7 @@ const Container = ({ scrollView, children, backButton }) => {
           <Header backButton={backButton} />
           <KeyboardAvoidingView enabled={Platform.OS === 'ios'} behavior={'padding'}>
             <ScrollView showsVerticalScrollIndicator={false} style={styles.scroll}>
-              <View style={styles.mainView}>{children}</View>
+              <View style={[styles.mainView, styleContainer]}>{children}</View>
             </ScrollView>
           </KeyboardAvoidingView>
         </>
@@ -24,7 +24,7 @@ const Container = ({ scrollView, children, backButton }) => {
           <SafeAreaView style={styles.safeAreaView} />
           <StatusBar backgroundColor={colors.primary} barStyle={'light-content'} />
           <Header backButton={backButton} />
-          <View style={styles.mainView}>{children}</View>
+          <View style={[styles.mainView, styleContainer]}>{children}</View>
         </>
       )}
     </>
