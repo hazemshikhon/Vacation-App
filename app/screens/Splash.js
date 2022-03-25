@@ -1,6 +1,8 @@
 import React, { useEffect } from 'react';
 import { View, StyleSheet, StatusBar, Text } from 'react-native';
 import { Actions } from 'react-native-router-flux';
+import { responsiveFontSize } from 'react-native-responsive-dimensions';
+
 import colors from '../config/colors';
 
 const Splash = ({}) => {
@@ -26,7 +28,7 @@ const styles = StyleSheet.create({
   },
   mainText: {
     color: colors.white,
-    fontSize: 30,
+    fontSize: responsiveFontSize(3.8),
     fontWeight: 'bold',
   },
 });

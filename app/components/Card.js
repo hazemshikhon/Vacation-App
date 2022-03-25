@@ -1,6 +1,7 @@
 import React from 'react';
 import { View, Text, StyleSheet } from 'react-native';
 import moment from 'moment';
+import { responsiveFontSize } from 'react-native-responsive-dimensions';
 
 import colors from '../config/colors';
 
@@ -48,21 +49,21 @@ const styles = StyleSheet.create({
   dateText: {
     color: colors.darkBlue,
     fontWeight: 'bold',
-    fontSize: 19,
+    fontSize: responsiveFontSize(2.1),
   },
   daysText: {
     color: colors.darkYellow,
-    fontSize: 12,
+    fontSize: responsiveFontSize(1.5),
     fontWeight: 'bold',
   },
   mainText: {
     color: colors.dark,
     marginBottom: 4,
-    fontSize: 15,
+    fontSize: responsiveFontSize(1.9),
   },
   replacmentNameText: {
     color: colors.red,
-    fontSize: 15,
+    fontSize: responsiveFontSize(1.8),
     marginBottom: 4,
   },
 });

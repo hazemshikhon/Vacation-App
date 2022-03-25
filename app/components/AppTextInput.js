@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { View, StyleSheet, TextInput, Text } from 'react-native';
+import { responsiveFontSize } from 'react-native-responsive-dimensions';
 
 import colors from '../config/colors';
 
@@ -25,16 +26,16 @@ const styles = StyleSheet.create({
     borderColor: colors.light,
     marginBottom: 12,
     flexDirection: 'row',
-    fontSize: 15,
+    fontSize: responsiveFontSize(2),
   },
 
   titleText: {
-    fontSize: 16,
+    fontSize: responsiveFontSize(2.1),
     marginBottom: 8,
     color: colors.dark,
   },
   mandatory: {
-    fontSize: 19,
+    fontSize: responsiveFontSize(2.2),
     color: colors.red,
   },
 });

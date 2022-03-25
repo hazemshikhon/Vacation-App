@@ -5,6 +5,7 @@ import Container from '../components/Container';
 import colors from '../config/colors';
 import AppTextInput from '../components/AppTextInput';
 import DatePicker from '../components/DatePicker';
+import { responsiveFontSize } from 'react-native-responsive-dimensions';
 
 const CreateVacation = ({
   pickerStartDate,
@@ -131,7 +132,7 @@ const CreateVacation = ({
 export default CreateVacation;
 const styles = StyleSheet.create({
   headerText: {
-    fontSize: 27,
+    fontSize: responsiveFontSize(3.5),
     fontWeight: 'bold',
     color: '#5d9edf',
     marginBottom: 18,
@@ -140,12 +141,12 @@ const styles = StyleSheet.create({
     marginBottom: 16,
   },
   titleText: {
-    fontSize: 16,
+    fontSize: responsiveFontSize(2),
     marginBottom: 8,
     color: colors.dark,
   },
   mandatory: {
-    fontSize: 19,
+    fontSize: responsiveFontSize(2.5),
     color: colors.red,
   },
   inputText: {
@@ -156,7 +157,7 @@ const styles = StyleSheet.create({
     marginBottom: 12,
   },
   date: {
-    fontSize: 14,
+    fontSize: responsiveFontSize(1.8),
     color: colors.dark,
   },
   error: {
@@ -170,7 +171,7 @@ const styles = StyleSheet.create({
   },
   submitText: {
     fontWeight: 'bold',
-    fontSize: 17,
+    fontSize: responsiveFontSize(2.2),
     textAlign: 'center',
     color: colors.white,
   },

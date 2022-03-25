@@ -3,6 +3,7 @@ import { StyleSheet, TouchableOpacity, Text, Image } from 'react-native';
 import Container from '../components/Container';
 import colors from '../config/colors';
 import { Actions } from 'react-native-router-flux';
+import { responsiveFontSize } from 'react-native-responsive-dimensions';
 
 const Home = () => {
   return (
@@ -40,7 +41,7 @@ const styles = StyleSheet.create({
   },
   text: {
     fontWeight: 'bold',
-    fontSize: 22,
+    fontSize: responsiveFontSize(2.7),
     color: colors.primary,
   },
   styleContainer: {
