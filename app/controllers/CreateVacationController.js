@@ -4,7 +4,6 @@ import { baseUrl } from '../config/constants';
 import CreateVacation from '../screens/CreateVacation';
 import { Alert } from 'react-native';
 import store from '../config/store';
-
 const CreateVacationController = ({ navigation }) => {
   const [pickerStartDate, setPickerStartDate] = useState(false);
   const [startDate, setStartDate] = useState();
@@ -62,14 +61,14 @@ const CreateVacationController = ({ navigation }) => {
           if (res.name !== name && res.replacementName !== replacementName) {
             Alert.alert('Something went wrong', 'Please check data and try again', [{ text: 'OK', onPress: () => {} }]);
           } else {
-            // store.dispatch({
-            //   type: 'addDay',
-            //   payload: {
-            //     id: 0,
-            //     numberDays: requestedDays,
-            //   },
-            // });
-            navigation.goBack();
+            store.dispatch({
+              type: 'addDay',
+              payload: {
+                id: 0,
+                numberDays: requestedDays,
+              },
+            });
+            navigation.push('Home');
           }
         })
         .catch((error) => console.log('error', error));
