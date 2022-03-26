@@ -1,14 +1,13 @@
 import React, { useEffect } from 'react';
 import { View, StyleSheet, StatusBar, Text } from 'react-native';
-import { Actions } from 'react-native-router-flux';
 import { responsiveFontSize } from 'react-native-responsive-dimensions';
 
 import colors from '../config/colors';
 
-const Splash = ({}) => {
+const Splash = ({ navigation }) => {
   useEffect(() => {
     setTimeout(() => {
-      Actions.Home();
+      navigation.navigate('Home');
     }, 2500);
   }, []);
   return (

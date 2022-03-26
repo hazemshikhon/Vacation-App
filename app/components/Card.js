@@ -6,10 +6,10 @@ import { Actions } from 'react-native-router-flux';
 
 import colors from '../config/colors';
 
-const Card = ({ data }) => {
+const Card = ({ data, navigation }) => {
   const { name, replacementName, mobile, startDate, requestDays } = data;
   return (
-    <TouchableOpacity onPress={() => Actions.RequestDetails({ data })} style={styles.container}>
+    <TouchableOpacity onPress={() => navigation.navigate('RequestDetails', { data })} style={styles.container}>
       <View style={styles.rowContainer}>
         <Text style={styles.dateText}>{moment(startDate).format('MMMM D,YYYY')}</Text>
 

@@ -6,11 +6,11 @@ import { Text, StyleSheet } from 'react-native';
 import { responsiveFontSize } from 'react-native-responsive-dimensions';
 
 import colors from '../config/colors';
-const RequestDetails = ({ data }) => {
-  const { name, replacementName, mobile, startDate, requestDays } = data;
+const RequestDetails = ({ data, navigation, route }) => {
+  const { name, replacementName, mobile, startDate, requestDays } = route.params.data;
 
   return (
-    <Container backButton>
+    <Container backButton navigation={navigation}>
       <Text style={styles.headerText}>Request Details</Text>
       <RowText textOne={'Name Requster :'} textTwo={name} textOneStyle={{ color: colors.red }} textTwoStyle={{ color: colors.dark }} />
       <RowText textOne={'Replacement Name :'} textTwo={replacementName} textOneStyle={{ color: colors.red }} textTwoStyle={{ color: colors.dark }} />

@@ -31,13 +31,14 @@ const CreateVacation = ({
   errPhone,
   setErrPhone,
   submit,
+  navigation,
 }) => {
   const today = new Date();
   const tomorrow = new Date(today);
   tomorrow.setDate(tomorrow.getDate() + 1);
 
   return (
-    <Container scrollView backButton>
+    <Container scrollView backButton navigation={navigation}>
       <Text style={styles.headerText}>Vacation Request</Text>
       <AppTextInput
         title={'Enter Your Name'}
@@ -88,7 +89,6 @@ const CreateVacation = ({
         </TouchableOpacity>
         {errDate != undefined && <Text style={styles.error}>{errDate}</Text>}
       </View>
-
       <AppTextInput
         title={'Enter Your Phone Number'}
         placeholder={'Phone Number'}

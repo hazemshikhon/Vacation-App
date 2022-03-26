@@ -3,7 +3,7 @@ import React, { useEffect, useState, useCallback } from 'react';
 import { baseUrl } from '../config/constants';
 import VacationRequests from '../screens/VacationRequests';
 
-const VacationRequestsController = () => {
+const VacationRequestsController = ({ navigation }) => {
   const [vacationRequests, setVacationRequests] = useState();
   const [searchResult, setSearchResult] = useState();
 
@@ -41,7 +41,7 @@ const VacationRequestsController = () => {
     setSearchResult(searchResult);
   };
 
-  return <VacationRequests vacationRequests={searchResult} search={search} />;
+  return <VacationRequests vacationRequests={searchResult} search={search} navigation={navigation} />;
 };
 
 export default VacationRequestsController;

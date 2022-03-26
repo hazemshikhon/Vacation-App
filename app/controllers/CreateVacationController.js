@@ -1,11 +1,11 @@
 import moment from 'moment';
 import React, { useState } from 'react';
-import { Actions } from 'react-native-router-flux';
 import { baseUrl } from '../config/constants';
 import CreateVacation from '../screens/CreateVacation';
 import { Alert } from 'react-native';
+import store from '../config/store';
 
-const CreateVacationController = ({}) => {
+const CreateVacationController = ({ navigation }) => {
   const [pickerStartDate, setPickerStartDate] = useState(false);
   const [startDate, setStartDate] = useState();
   const [errName, setErrName] = useState('');
@@ -20,7 +20,14 @@ const CreateVacationController = ({}) => {
   const Submit = async () => {
     const phoneReg = /^01[0125][0-9]{8}$/;
 
-    if (name === '' || replacementName === '' || requestedDays === '' || startDate === undefined || errRequestedDays !== '' || !phoneReg.test(phone)) {
+    if (
+      name === '' ||
+      replacementName === '' ||
+      requestedDays === '' ||
+      startDate === undefined ||
+      errRequestedDays !== '' ||
+      (phone !== '' && !phoneReg.test(phone))
+    ) {
       if (name === '') {
         setErrName('Please Enter Name');
       }
@@ -55,7 +62,14 @@ const CreateVacationController = ({}) => {
           if (res.name !== name && res.replacementName !== replacementName) {
             Alert.alert('Something went wrong', 'Please check data and try again', [{ text: 'OK', onPress: () => {} }]);
           } else {
-            Actions.pop();
+            // store.dispatch({
+            //   type: 'addDay',
+            //   payload: {
+            //     id: 0,
+            //     numberDays: requestedDays,
+            //   },
+            // });
+            navigation.goBack();
           }
         })
         .catch((error) => console.log('error', error));
@@ -86,6 +100,7 @@ const CreateVacationController = ({}) => {
       errPhone={errPhone}
       setErrPhone={(errPhone) => setErrPhone(errPhone)}
       submit={Submit}
+      navigation={navigation}
     />
   );
 };

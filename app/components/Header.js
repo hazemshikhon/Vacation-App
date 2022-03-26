@@ -6,11 +6,11 @@ import MaterialIcons from 'react-native-vector-icons/MaterialIcons';
 
 const { width } = Dimensions.get('screen');
 
-const Header = ({ backButton }) => {
+const Header = ({ backButton, navigation }) => {
   return (
     <View style={styles.container}>
       {backButton && (
-        <TouchableOpacity onPress={() => Actions.pop()}>
+        <TouchableOpacity onPress={() => navigation.goBack()}>
           <MaterialIcons name={'arrow-back'} size={25} color={colors.white} />
         </TouchableOpacity>
       )}
