@@ -62,13 +62,9 @@ const CreateVacationController = ({ navigation }) => {
             Alert.alert('Something went wrong', 'Please check data and try again', [{ text: 'OK', onPress: () => {} }]);
           } else {
             store.dispatch({
-              type: 'addDay',
-              payload: {
-                id: 0,
-                numberDays: requestedDays,
-              },
+              type: 'INCREMENT',
             });
-            navigation.push('Home');
+            navigation.navigate('Home');
           }
         })
         .catch((error) => console.log('error', error));

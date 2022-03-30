@@ -1,6 +1,6 @@
 import { createStore } from 'redux';
-import offDays from './reducers/reducer';
+import reducer from './reducers/reducer';
 
-const store = createStore(offDays);
+const store = createStore(reducer);
 
 export default store;

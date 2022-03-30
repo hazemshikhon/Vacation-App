@@ -5,11 +5,13 @@ import colors from '../config/colors';
 import { responsiveFontSize } from 'react-native-responsive-dimensions';
 import { connect } from 'react-redux';
 import store from '../config/store';
-import reducer from '../config/reducers/reducer';
+import { bindActionCreators } from 'redux';
+import * as counterActions from '../config/counterAction';
+
 const Home = ({ navigation }) => {
   return (
     <Container styleContainer={styles.styleContainer}>
-      <Text style={styles.headerText}>You Have {store.getState()} Request Vacation</Text>
+      <Text style={styles.headerText}>You Have {store.getState().count} Request Vacation</Text>
       <TouchableOpacity style={styles.container} onPress={() => navigation.navigate('CreateVacationController')}>
         <Text style={styles.text}>Request Vacation</Text>
         <Image source={require('../config/images/request3.png')} style={styles.image} />
@@ -21,7 +23,14 @@ const Home = ({ navigation }) => {
     </Container>
   );
 };
-export default connect(null, { reducer })(Home);
+export default connect(
+  (state) => ({
+    state: state.count,
+  }),
+  (dispatch) => ({
+    actions: bindActionCreators(counterActions, dispatch),
+  }),
+)(Home);
 
 const styles = StyleSheet.create({
   image: {

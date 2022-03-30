@@ -8,22 +8,20 @@ import Splash from './app/screens/Splash';
 import CreateVacationController from './app/controllers/CreateVacationController';
 import Home from './app/screens/Home';
 import RequestDetails from './app/screens/RequestDetails';
-import redux from './app/screens/redux';
-import reducer from './app/config/reducers/reducer';
-import { createStore } from 'redux';
+import store from './app/config/store';
+
 const Stack = createNativeStackNavigator();
 
 function App() {
   return (
-    <Provider store={createStore(reducer)}>
+    <Provider store={store}>
       <NavigationContainer>
         <Stack.Navigator screenOptions={{ headerShown: false }}>
-          {/* <Stack.Screen name="redux" component={redux} /> */}
           <Stack.Screen name="Splash" component={Splash} />
+          <Stack.Screen name="Home" component={Home} />
           <Stack.Screen name="VacationRequestsController" component={VacationRequestsController} />
           <Stack.Screen name="CreateVacationController" component={CreateVacationController} />
           <Stack.Screen name="RequestDetails" component={RequestDetails} />
-          <Stack.Screen name="Home" component={Home} />
         </Stack.Navigator>
       </NavigationContainer>
     </Provider>
