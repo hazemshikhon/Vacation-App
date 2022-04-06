@@ -8,15 +8,22 @@ import Splash from './app/screens/Splash';
 import CreateVacationController from './app/controllers/CreateVacationController';
 import Home from './app/screens/Home';
 import RequestDetails from './app/screens/RequestDetails';
+import graphql from './app/screens/graphql';
 import store from './app/config/store';
+import { ApolloClient, InMemoryCache, ApolloProvider } from '@apollo/client';
 
 const Stack = createNativeStackNavigator();
-
+const client = new ApolloClient({
+  uri: 'https://countries.trevorblades.com/graphql',
+  cache: new InMemoryCache(),
+});
 function App() {
   return (
-    <Provider store={store}>
+    // <Provider store={store}>
+    <ApolloProvider client={client}>
       <NavigationContainer>
         <Stack.Navigator screenOptions={{ headerShown: false }}>
+          <Stack.Screen name="graphql" component={graphql} />
           <Stack.Screen name="Splash" component={Splash} />
           <Stack.Screen name="Home" component={Home} />
           <Stack.Screen name="VacationRequestsController" component={VacationRequestsController} />
@@ -24,7 +31,8 @@ function App() {
           <Stack.Screen name="RequestDetails" component={RequestDetails} />
         </Stack.Navigator>
       </NavigationContainer>
-    </Provider>
+      {/* </Provider> */}
+    </ApolloProvider>
   );
 }
 
