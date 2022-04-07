@@ -67,10 +67,18 @@
 		<string>Cairo-Regular.ttf</string>
 		<string>Cairo-SemiBold.ttf</string>
 		<string>FS_Black.ttf</string>
+		<string>hazem.otf</string>
+		<string>hazem.ttf</string>
 		<string>JFRocOut.ttf</string>
 		<string>MCS Diwany3 S_I 3D..ttf</string>
 		<string>MCS TALAYA SPINED.ttf</string>
 		<string>wds052801.ttf</string>
+		<string>Almarai-Regular.ttf</string>
+		<string>Almarai-Bold.ttf</string>
+		<string>Almarai-Light.ttf</string>
+		<string>Lato-Bold.ttf</string>
+		<string>Lato-Light.ttf</string>
+		<string>Lato-Regular.ttf</string>
 	</array>
 	<key>NSLocationWhenInUseUsageDescription</key>
 	<string></string>
