@@ -13,6 +13,33 @@
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		2F816DAA707B2EF30D689F61 /* libPods-vacation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 081B2E15191EB5E33DD9C569 /* libPods-vacation.a */; };
+		52B025B927FE809900329374 /* Lato-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 52B0259E27FE809800329374 /* Lato-Light.ttf */; };
+		52B025BA27FE809900329374 /* MCS Diwany3 S_I 3D..ttf in Resources */ = {isa = PBXBuildFile; fileRef = 52B0259F27FE809800329374 /* MCS Diwany3 S_I 3D..ttf */; };
+		52B025BB27FE809900329374 /* Cairo-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 52B025A027FE809800329374 /* Cairo-SemiBold.ttf */; };
+		52B025BC27FE809900329374 /* AL-Aser Outline.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 52B025A127FE809800329374 /* AL-Aser Outline.ttf */; };
+		52B025BD27FE809900329374 /* Almarai-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 52B025A227FE809800329374 /* Almarai-Regular.ttf */; };
+		52B025BE27FE809900329374 /* Cairo-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 52B025A327FE809800329374 /* Cairo-Regular.ttf */; };
+		52B025BF27FE809900329374 /* Lato-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 52B025A427FE809800329374 /* Lato-Bold.ttf */; };
+		52B025C027FE809900329374 /* hazem.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 52B025A527FE809800329374 /* hazem.ttf */; };
+		52B025C127FE809900329374 /* Cairo-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 52B025A627FE809800329374 /* Cairo-Light.ttf */; };
+		52B025C227FE809900329374 /* Al-Hadith2.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 52B025A727FE809800329374 /* Al-Hadith2.ttf */; };
+		52B025C327FE809900329374 /* FS_Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 52B025A827FE809800329374 /* FS_Black.ttf */; };
+		52B025C427FE809900329374 /* wds052801.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 52B025A927FE809800329374 /* wds052801.ttf */; };
+		52B025C527FE809900329374 /* MCS TALAYA SPINED.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 52B025AA27FE809800329374 /* MCS TALAYA SPINED.ttf */; };
+		52B025C627FE809900329374 /* ChunkFive-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 52B025AB27FE809800329374 /* ChunkFive-Regular.otf */; };
+		52B025C727FE809900329374 /* hazem.otf in Resources */ = {isa = PBXBuildFile; fileRef = 52B025AC27FE809900329374 /* hazem.otf */; };
+		52B025C827FE809900329374 /* Cairo-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 52B025AD27FE809900329374 /* Cairo-Bold.ttf */; };
+		52B025C927FE809900329374 /* Cairo-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 52B025AE27FE809900329374 /* Cairo-Black.ttf */; };
+		52B025CA27FE809900329374 /* Almarai-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 52B025AF27FE809900329374 /* Almarai-Light.ttf */; };
+		52B025CB27FE809900329374 /* Lato-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 52B025B027FE809900329374 /* Lato-Regular.ttf */; };
+		52B025CC27FE809900329374 /* Abaddon.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 52B025B127FE809900329374 /* Abaddon.ttf */; };
+		52B025CD27FE809900329374 /* ACS  Fayrouz Extra Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 52B025B227FE809900329374 /* ACS  Fayrouz Extra Bold.ttf */; };
+		52B025CE27FE809900329374 /* PlayfairDisplaySC-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 52B025B327FE809900329374 /* PlayfairDisplaySC-Bold.otf */; };
+		52B025CF27FE809900329374 /* JFRocOut.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 52B025B427FE809900329374 /* JFRocOut.ttf */; };
+		52B025D027FE809900329374 /* ShortBaby-Mg2w.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 52B025B527FE809900329374 /* ShortBaby-Mg2w.ttf */; };
+		52B025D127FE809900329374 /* Cairo-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 52B025B627FE809900329374 /* Cairo-ExtraLight.ttf */; };
+		52B025D227FE809900329374 /* stocky.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 52B025B727FE809900329374 /* stocky.ttf */; };
+		52B025D327FE809900329374 /* Almarai-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 52B025B827FE809900329374 /* Almarai-Bold.ttf */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
@@ -38,6 +65,33 @@
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = vacation/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = vacation/main.m; sourceTree = "<group>"; };
 		30D81606E73BE7E06F0AECF4 /* Pods-vacation-vacationTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-vacation-vacationTests.release.xcconfig"; path = "Target Support Files/Pods-vacation-vacationTests/Pods-vacation-vacationTests.release.xcconfig"; sourceTree = "<group>"; };
+		52B0259E27FE809800329374 /* Lato-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Lato-Light.ttf"; path = "../../../../Volumes/Macintoch HD - Data/my projects/novartis-doctor-mobile-master/assets/fonts/Lato-Light.ttf"; sourceTree = "<group>"; };
+		52B0259F27FE809800329374 /* MCS Diwany3 S_I 3D..ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "MCS Diwany3 S_I 3D..ttf"; path = "../../../../Volumes/Macintoch HD - Data/my projects/novartis-doctor-mobile-master/assets/fonts/MCS Diwany3 S_I 3D..ttf"; sourceTree = "<group>"; };
+		52B025A027FE809800329374 /* Cairo-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Cairo-SemiBold.ttf"; path = "../../../../Volumes/Macintoch HD - Data/my projects/novartis-doctor-mobile-master/assets/fonts/Cairo-SemiBold.ttf"; sourceTree = "<group>"; };
+		52B025A127FE809800329374 /* AL-Aser Outline.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "AL-Aser Outline.ttf"; path = "../../../../Volumes/Macintoch HD - Data/my projects/novartis-doctor-mobile-master/assets/fonts/AL-Aser Outline.ttf"; sourceTree = "<group>"; };
+		52B025A227FE809800329374 /* Almarai-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Almarai-Regular.ttf"; path = "../../../../Volumes/Macintoch HD - Data/my projects/novartis-doctor-mobile-master/assets/fonts/Almarai-Regular.ttf"; sourceTree = "<group>"; };
+		52B025A327FE809800329374 /* Cairo-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Cairo-Regular.ttf"; path = "../../../../Volumes/Macintoch HD - Data/my projects/novartis-doctor-mobile-master/assets/fonts/Cairo-Regular.ttf"; sourceTree = "<group>"; };
+		52B025A427FE809800329374 /* Lato-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Lato-Bold.ttf"; path = "../../../../Volumes/Macintoch HD - Data/my projects/novartis-doctor-mobile-master/assets/fonts/Lato-Bold.ttf"; sourceTree = "<group>"; };
+		52B025A527FE809800329374 /* hazem.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = hazem.ttf; path = "../../../../Volumes/Macintoch HD - Data/my projects/novartis-doctor-mobile-master/assets/fonts/hazem.ttf"; sourceTree = "<group>"; };
+		52B025A627FE809800329374 /* Cairo-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Cairo-Light.ttf"; path = "../../../../Volumes/Macintoch HD - Data/my projects/novartis-doctor-mobile-master/assets/fonts/Cairo-Light.ttf"; sourceTree = "<group>"; };
+		52B025A727FE809800329374 /* Al-Hadith2.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Al-Hadith2.ttf"; path = "../../../../Volumes/Macintoch HD - Data/my projects/novartis-doctor-mobile-master/assets/fonts/Al-Hadith2.ttf"; sourceTree = "<group>"; };
+		52B025A827FE809800329374 /* FS_Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = FS_Black.ttf; path = "../../../../Volumes/Macintoch HD - Data/my projects/novartis-doctor-mobile-master/assets/fonts/FS_Black.ttf"; sourceTree = "<group>"; };
+		52B025A927FE809800329374 /* wds052801.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = wds052801.ttf; path = "../../../../Volumes/Macintoch HD - Data/my projects/novartis-doctor-mobile-master/assets/fonts/wds052801.ttf"; sourceTree = "<group>"; };
+		52B025AA27FE809800329374 /* MCS TALAYA SPINED.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "MCS TALAYA SPINED.ttf"; path = "../../../../Volumes/Macintoch HD - Data/my projects/novartis-doctor-mobile-master/assets/fonts/MCS TALAYA SPINED.ttf"; sourceTree = "<group>"; };
+		52B025AB27FE809800329374 /* ChunkFive-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "ChunkFive-Regular.otf"; path = "../../../../Volumes/Macintoch HD - Data/my projects/novartis-doctor-mobile-master/assets/fonts/ChunkFive-Regular.otf"; sourceTree = "<group>"; };
+		52B025AC27FE809900329374 /* hazem.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = hazem.otf; path = "../../../../Volumes/Macintoch HD - Data/my projects/novartis-doctor-mobile-master/assets/fonts/hazem.otf"; sourceTree = "<group>"; };
+		52B025AD27FE809900329374 /* Cairo-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Cairo-Bold.ttf"; path = "../../../../Volumes/Macintoch HD - Data/my projects/novartis-doctor-mobile-master/assets/fonts/Cairo-Bold.ttf"; sourceTree = "<group>"; };
+		52B025AE27FE809900329374 /* Cairo-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Cairo-Black.ttf"; path = "../../../../Volumes/Macintoch HD - Data/my projects/novartis-doctor-mobile-master/assets/fonts/Cairo-Black.ttf"; sourceTree = "<group>"; };
+		52B025AF27FE809900329374 /* Almarai-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Almarai-Light.ttf"; path = "../../../../Volumes/Macintoch HD - Data/my projects/novartis-doctor-mobile-master/assets/fonts/Almarai-Light.ttf"; sourceTree = "<group>"; };
+		52B025B027FE809900329374 /* Lato-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Lato-Regular.ttf"; path = "../../../../Volumes/Macintoch HD - Data/my projects/novartis-doctor-mobile-master/assets/fonts/Lato-Regular.ttf"; sourceTree = "<group>"; };
+		52B025B127FE809900329374 /* Abaddon.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Abaddon.ttf; path = "../../../../Volumes/Macintoch HD - Data/my projects/novartis-doctor-mobile-master/assets/fonts/Abaddon.ttf"; sourceTree = "<group>"; };
+		52B025B227FE809900329374 /* ACS  Fayrouz Extra Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "ACS  Fayrouz Extra Bold.ttf"; path = "../../../../Volumes/Macintoch HD - Data/my projects/novartis-doctor-mobile-master/assets/fonts/ACS  Fayrouz Extra Bold.ttf"; sourceTree = "<group>"; };
+		52B025B327FE809900329374 /* PlayfairDisplaySC-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "PlayfairDisplaySC-Bold.otf"; path = "../../../../Volumes/Macintoch HD - Data/my projects/novartis-doctor-mobile-master/assets/fonts/PlayfairDisplaySC-Bold.otf"; sourceTree = "<group>"; };
+		52B025B427FE809900329374 /* JFRocOut.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = JFRocOut.ttf; path = "../../../../Volumes/Macintoch HD - Data/my projects/novartis-doctor-mobile-master/assets/fonts/JFRocOut.ttf"; sourceTree = "<group>"; };
+		52B025B527FE809900329374 /* ShortBaby-Mg2w.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "ShortBaby-Mg2w.ttf"; path = "../../../../Volumes/Macintoch HD - Data/my projects/novartis-doctor-mobile-master/assets/fonts/ShortBaby-Mg2w.ttf"; sourceTree = "<group>"; };
+		52B025B627FE809900329374 /* Cairo-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Cairo-ExtraLight.ttf"; path = "../../../../Volumes/Macintoch HD - Data/my projects/novartis-doctor-mobile-master/assets/fonts/Cairo-ExtraLight.ttf"; sourceTree = "<group>"; };
+		52B025B727FE809900329374 /* stocky.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = stocky.ttf; path = "../../../../Volumes/Macintoch HD - Data/my projects/novartis-doctor-mobile-master/assets/fonts/stocky.ttf"; sourceTree = "<group>"; };
+		52B025B827FE809900329374 /* Almarai-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Almarai-Bold.ttf"; path = "../../../../Volumes/Macintoch HD - Data/my projects/novartis-doctor-mobile-master/assets/fonts/Almarai-Bold.ttf"; sourceTree = "<group>"; };
 		53947E2BA5D31A90DC2C1E41 /* Pods-vacation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-vacation.debug.xcconfig"; path = "Target Support Files/Pods-vacation/Pods-vacation.debug.xcconfig"; sourceTree = "<group>"; };
 		78BAA9EF4BDDCC1F22F7538B /* Pods-vacation-vacationTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-vacation-vacationTests.debug.xcconfig"; path = "Target Support Files/Pods-vacation-vacationTests/Pods-vacation-vacationTests.debug.xcconfig"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = vacation/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -114,7 +168,6 @@
 				78BAA9EF4BDDCC1F22F7538B /* Pods-vacation-vacationTests.debug.xcconfig */,
 				30D81606E73BE7E06F0AECF4 /* Pods-vacation-vacationTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -128,6 +181,33 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
+				52B025B127FE809900329374 /* Abaddon.ttf */,
+				52B025B227FE809900329374 /* ACS  Fayrouz Extra Bold.ttf */,
+				52B025A127FE809800329374 /* AL-Aser Outline.ttf */,
+				52B025A727FE809800329374 /* Al-Hadith2.ttf */,
+				52B025B827FE809900329374 /* Almarai-Bold.ttf */,
+				52B025AF27FE809900329374 /* Almarai-Light.ttf */,
+				52B025A227FE809800329374 /* Almarai-Regular.ttf */,
+				52B025AE27FE809900329374 /* Cairo-Black.ttf */,
+				52B025AD27FE809900329374 /* Cairo-Bold.ttf */,
+				52B025B627FE809900329374 /* Cairo-ExtraLight.ttf */,
+				52B025A627FE809800329374 /* Cairo-Light.ttf */,
+				52B025A327FE809800329374 /* Cairo-Regular.ttf */,
+				52B025A027FE809800329374 /* Cairo-SemiBold.ttf */,
+				52B025AB27FE809800329374 /* ChunkFive-Regular.otf */,
+				52B025A827FE809800329374 /* FS_Black.ttf */,
+				52B025AC27FE809900329374 /* hazem.otf */,
+				52B025A527FE809800329374 /* hazem.ttf */,
+				52B025B427FE809900329374 /* JFRocOut.ttf */,
+				52B025A427FE809800329374 /* Lato-Bold.ttf */,
+				52B0259E27FE809800329374 /* Lato-Light.ttf */,
+				52B025B027FE809900329374 /* Lato-Regular.ttf */,
+				52B0259F27FE809800329374 /* MCS Diwany3 S_I 3D..ttf */,
+				52B025AA27FE809800329374 /* MCS TALAYA SPINED.ttf */,
+				52B025B327FE809900329374 /* PlayfairDisplaySC-Bold.otf */,
+				52B025B527FE809900329374 /* ShortBaby-Mg2w.ttf */,
+				52B025B727FE809900329374 /* stocky.ttf */,
+				52B025A927FE809800329374 /* wds052801.ttf */,
 				13B07FAE1A68108700A75B9A /* vacation */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				00E356EF1AD99517003FC87E /* vacationTests */,
@@ -243,7 +323,34 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52B025BC27FE809900329374 /* AL-Aser Outline.ttf in Resources */,
+				52B025B927FE809900329374 /* Lato-Light.ttf in Resources */,
+				52B025D027FE809900329374 /* ShortBaby-Mg2w.ttf in Resources */,
+				52B025BE27FE809900329374 /* Cairo-Regular.ttf in Resources */,
+				52B025D127FE809900329374 /* Cairo-ExtraLight.ttf in Resources */,
+				52B025CE27FE809900329374 /* PlayfairDisplaySC-Bold.otf in Resources */,
+				52B025BA27FE809900329374 /* MCS Diwany3 S_I 3D..ttf in Resources */,
+				52B025CC27FE809900329374 /* Abaddon.ttf in Resources */,
+				52B025CB27FE809900329374 /* Lato-Regular.ttf in Resources */,
+				52B025D327FE809900329374 /* Almarai-Bold.ttf in Resources */,
+				52B025C227FE809900329374 /* Al-Hadith2.ttf in Resources */,
+				52B025CA27FE809900329374 /* Almarai-Light.ttf in Resources */,
+				52B025BD27FE809900329374 /* Almarai-Regular.ttf in Resources */,
+				52B025C327FE809900329374 /* FS_Black.ttf in Resources */,
+				52B025BB27FE809900329374 /* Cairo-SemiBold.ttf in Resources */,
+				52B025C127FE809900329374 /* Cairo-Light.ttf in Resources */,
+				52B025C727FE809900329374 /* hazem.otf in Resources */,
+				52B025C427FE809900329374 /* wds052801.ttf in Resources */,
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
+				52B025BF27FE809900329374 /* Lato-Bold.ttf in Resources */,
+				52B025D227FE809900329374 /* stocky.ttf in Resources */,
+				52B025C527FE809900329374 /* MCS TALAYA SPINED.ttf in Resources */,
+				52B025C927FE809900329374 /* Cairo-Black.ttf in Resources */,
+				52B025CF27FE809900329374 /* JFRocOut.ttf in Resources */,
+				52B025C027FE809900329374 /* hazem.ttf in Resources */,
+				52B025C627FE809900329374 /* ChunkFive-Regular.otf in Resources */,
+				52B025CD27FE809900329374 /* ACS  Fayrouz Extra Bold.ttf in Resources */,
+				52B025C827FE809900329374 /* Cairo-Bold.ttf in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
