@@ -50,7 +50,7 @@ const styles = StyleSheet.create({
     shadowOpacity: 0.5,
     shadowRadius: 2,
     elevation: 2,
-    backgroundColor: colors.light,
+    backgroundColor: colors.white,
     borderRadius: 12,
     marginBottom: 100,
   },
@@ -69,6 +69,7 @@ const styles = StyleSheet.create({
   priceView: {
     paddingHorizontal: 15,
     marginTop: 10,
+    alignItems: 'flex-start',
   },
   priceText: {
     fontSize: responsiveFontSize(2.5),

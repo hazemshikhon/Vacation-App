@@ -19,7 +19,7 @@ const styles = StyleSheet.create({
   mainView: {
     backgroundColor: colors.white,
     padding: 16,
-    flex: 1,
+    height: '100%',
   },
   safeAreaView: {
     backgroundColor: colors.primary,

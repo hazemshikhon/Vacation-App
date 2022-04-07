@@ -31,6 +31,7 @@ export default NewHome;
 const styles = StyleSheet.create({
   scrollView: {
     paddingHorizontal: 1,
+    marginBottom: 40,
   },
   headerView: {
     flexDirection: 'row',
